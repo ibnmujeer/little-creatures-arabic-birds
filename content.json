@@ -1,0 +1,396 @@
+{
+  "edition": "ar-birds",
+  "language": "ar",
+  "category": "bird",
+  "assetApproval": "approved_by_user",
+  "gameUseAuthorization": "user_supplied_authorized",
+  "difficultyLevels": [
+    {
+      "id": 1,
+      "title": "طيور مألوفة",
+      "detail": "طيور نراها كثيرًا ونعرفها من حولنا",
+      "items": [
+        "bir_sparrow",
+        "bir_pigeon",
+        "bir_parrot",
+        "bir_peacock",
+        "bir_rooster",
+        "bir_hen",
+        "bir_mallard",
+        "bir_goose_bird",
+        "bir_swan",
+        "bir_owl"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "أصدقاء الحديقة",
+      "detail": "طيور جميلة نراها في الحدائق وبين الأشجار",
+      "items": [
+        "bir_robin",
+        "bir_canary",
+        "bir_cardinal",
+        "bir_blue_jay",
+        "bir_finch",
+        "bir_goldfinch",
+        "bir_woodpecker",
+        "bir_hummingbird",
+        "bir_crow",
+        "bir_magpie"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "طيور الماء والشاطئ",
+      "detail": "طيور تعيش قرب الماء وعلى الشواطئ",
+      "items": [
+        "bir_flamingo",
+        "bir_seagull",
+        "bir_pelican",
+        "bir_heron",
+        "bir_stork",
+        "bir_crane",
+        "bir_ibis",
+        "bir_cormorant",
+        "bir_kingfisher",
+        "bir_puffin"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "طيور السماء",
+      "detail": "طيور مدهشة تحلّق في السماء",
+      "items": [
+        "bir_eagle",
+        "bir_falcon",
+        "bir_vulture",
+        "bir_dove",
+        "bir_barn_owl",
+        "bir_albatross",
+        "bir_swallow",
+        "bir_toucan",
+        "bir_cockatoo",
+        "bir_parakeet"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "مستكشفو الأفق",
+      "detail": "طيور نادرة من أماكن بعيدة حول العالم",
+      "items": [
+        "bir_penguin",
+        "bir_ostrich",
+        "bir_ostrich_bird",
+        "bir_cassowary",
+        "bir_kiwi",
+        "bir_quail",
+        "bir_turkey_bird",
+        "bir_macaw",
+        "bir_golden_pheasant",
+        "bir_raven"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "bir_sparrow",
+      "name": "عُصْفُور الدُّورِيّ",
+      "image": "./assets/images/bir_sparrow.webp",
+      "audio": "./assets/audio/bir_sparrow.wav"
+    },
+    {
+      "id": "bir_pigeon",
+      "name": "حَمَامَة",
+      "image": "./assets/images/bir_pigeon.webp",
+      "audio": "./assets/audio/bir_pigeon.wav"
+    },
+    {
+      "id": "bir_parrot",
+      "name": "بَبَّغَاء",
+      "image": "./assets/images/bir_parrot.webp",
+      "audio": "./assets/audio/bir_parrot.wav"
+    },
+    {
+      "id": "bir_peacock",
+      "name": "طَاوُوس",
+      "image": "./assets/images/bir_peacock.webp",
+      "audio": "./assets/audio/bir_peacock.wav"
+    },
+    {
+      "id": "bir_rooster",
+      "name": "دِيك",
+      "image": "./assets/images/bir_rooster.webp",
+      "audio": "./assets/audio/bir_rooster.wav"
+    },
+    {
+      "id": "bir_hen",
+      "name": "دَجَاجَة",
+      "image": "./assets/images/bir_hen.webp",
+      "audio": "./assets/audio/bir_hen.wav"
+    },
+    {
+      "id": "bir_mallard",
+      "name": "بَطَّة خَضْرَاء الرَّأْس",
+      "image": "./assets/images/bir_mallard.webp",
+      "audio": "./assets/audio/bir_mallard.wav"
+    },
+    {
+      "id": "bir_goose_bird",
+      "name": "إِوَزّ رَمَادِيّ",
+      "image": "./assets/images/bir_goose_bird.webp",
+      "audio": "./assets/audio/bir_goose_bird.wav"
+    },
+    {
+      "id": "bir_swan",
+      "name": "بَجَعَة",
+      "image": "./assets/images/bir_swan.webp",
+      "audio": "./assets/audio/bir_swan.wav"
+    },
+    {
+      "id": "bir_owl",
+      "name": "بُومَة",
+      "image": "./assets/images/bir_owl.webp",
+      "audio": "./assets/audio/bir_owl.wav"
+    },
+    {
+      "id": "bir_robin",
+      "name": "أَبُو الحِنَّاء الأُورُوبِّيّ",
+      "image": "./assets/images/bir_robin.webp",
+      "audio": "./assets/audio/bir_robin.wav"
+    },
+    {
+      "id": "bir_canary",
+      "name": "كَنَارِيّ",
+      "image": "./assets/images/bir_canary.webp",
+      "audio": "./assets/audio/bir_canary.wav"
+    },
+    {
+      "id": "bir_cardinal",
+      "name": "كَرْدِينَال شَمَالِيّ",
+      "image": "./assets/images/bir_cardinal.webp",
+      "audio": "./assets/audio/bir_cardinal.wav"
+    },
+    {
+      "id": "bir_blue_jay",
+      "name": "قَيْق أَزْرَق",
+      "image": "./assets/images/bir_blue_jay.webp",
+      "audio": "./assets/audio/bir_blue_jay.wav"
+    },
+    {
+      "id": "bir_finch",
+      "name": "شُرْشُور مُخَطَّط",
+      "image": "./assets/images/bir_finch.webp",
+      "audio": "./assets/audio/bir_finch.wav"
+    },
+    {
+      "id": "bir_goldfinch",
+      "name": "حَسُّون أُورُوبِّيّ",
+      "image": "./assets/images/bir_goldfinch.webp",
+      "audio": "./assets/audio/bir_goldfinch.wav"
+    },
+    {
+      "id": "bir_woodpecker",
+      "name": "نَقَّار الخَشَب",
+      "image": "./assets/images/bir_woodpecker.webp",
+      "audio": "./assets/audio/bir_woodpecker.wav"
+    },
+    {
+      "id": "bir_hummingbird",
+      "name": "طَائِر الطَّنَّان",
+      "image": "./assets/images/bir_hummingbird.webp",
+      "audio": "./assets/audio/bir_hummingbird.wav"
+    },
+    {
+      "id": "bir_crow",
+      "name": "غُرَاب",
+      "image": "./assets/images/bir_crow.webp",
+      "audio": "./assets/audio/bir_crow.wav"
+    },
+    {
+      "id": "bir_magpie",
+      "name": "عَقْعَق أُورَاسِيّ",
+      "image": "./assets/images/bir_magpie.webp",
+      "audio": "./assets/audio/bir_magpie.wav"
+    },
+    {
+      "id": "bir_flamingo",
+      "name": "نُحَام",
+      "image": "./assets/images/bir_flamingo.webp",
+      "audio": "./assets/audio/bir_flamingo.wav"
+    },
+    {
+      "id": "bir_seagull",
+      "name": "نَوْرَس",
+      "image": "./assets/images/bir_seagull.webp",
+      "audio": "./assets/audio/bir_seagull.wav"
+    },
+    {
+      "id": "bir_pelican",
+      "name": "بَجَع",
+      "image": "./assets/images/bir_pelican.webp",
+      "audio": "./assets/audio/bir_pelican.wav"
+    },
+    {
+      "id": "bir_heron",
+      "name": "مَالِك الحَزِين",
+      "image": "./assets/images/bir_heron.webp",
+      "audio": "./assets/audio/bir_heron.wav"
+    },
+    {
+      "id": "bir_stork",
+      "name": "لَقْلَق",
+      "image": "./assets/images/bir_stork.webp",
+      "audio": "./assets/audio/bir_stork.wav"
+    },
+    {
+      "id": "bir_crane",
+      "name": "كُرْكِيّ",
+      "image": "./assets/images/bir_crane.webp",
+      "audio": "./assets/audio/bir_crane.wav"
+    },
+    {
+      "id": "bir_ibis",
+      "name": "أَبُو مَنْجَل",
+      "image": "./assets/images/bir_ibis.webp",
+      "audio": "./assets/audio/bir_ibis.wav"
+    },
+    {
+      "id": "bir_cormorant",
+      "name": "غَرَابُ المَاء الكَبِير",
+      "image": "./assets/images/bir_cormorant.webp",
+      "audio": "./assets/audio/bir_cormorant.wav"
+    },
+    {
+      "id": "bir_kingfisher",
+      "name": "رَفْرَاف",
+      "image": "./assets/images/bir_kingfisher.webp",
+      "audio": "./assets/audio/bir_kingfisher.wav"
+    },
+    {
+      "id": "bir_puffin",
+      "name": "بَفِن أَطْلَسِيّ",
+      "image": "./assets/images/bir_puffin.webp",
+      "audio": "./assets/audio/bir_puffin.wav"
+    },
+    {
+      "id": "bir_eagle",
+      "name": "نَسْر",
+      "image": "./assets/images/bir_eagle.webp",
+      "audio": "./assets/audio/bir_eagle.wav"
+    },
+    {
+      "id": "bir_falcon",
+      "name": "صَقْر",
+      "image": "./assets/images/bir_falcon.webp",
+      "audio": "./assets/audio/bir_falcon.wav"
+    },
+    {
+      "id": "bir_vulture",
+      "name": "رَخَمَة",
+      "image": "./assets/images/bir_vulture.webp",
+      "audio": "./assets/audio/bir_vulture.wav"
+    },
+    {
+      "id": "bir_dove",
+      "name": "يَمَامَة",
+      "image": "./assets/images/bir_dove.webp",
+      "audio": "./assets/audio/bir_dove.wav"
+    },
+    {
+      "id": "bir_barn_owl",
+      "name": "بُومَة الحَظِيرَة",
+      "image": "./assets/images/bir_barn_owl.webp",
+      "audio": "./assets/audio/bir_barn_owl.wav"
+    },
+    {
+      "id": "bir_albatross",
+      "name": "قَطْرَس",
+      "image": "./assets/images/bir_albatross.webp",
+      "audio": "./assets/audio/bir_albatross.wav"
+    },
+    {
+      "id": "bir_swallow",
+      "name": "سُنُونُو الحَظِيرَة",
+      "image": "./assets/images/bir_swallow.webp",
+      "audio": "./assets/audio/bir_swallow.wav"
+    },
+    {
+      "id": "bir_toucan",
+      "name": "طُوقَان",
+      "image": "./assets/images/bir_toucan.webp",
+      "audio": "./assets/audio/bir_toucan.wav"
+    },
+    {
+      "id": "bir_cockatoo",
+      "name": "كُوكَاتُو",
+      "image": "./assets/images/bir_cockatoo.webp",
+      "audio": "./assets/audio/bir_cockatoo.wav"
+    },
+    {
+      "id": "bir_parakeet",
+      "name": "بُدْجَرِيغَار",
+      "image": "./assets/images/bir_parakeet.webp",
+      "audio": "./assets/audio/bir_parakeet.wav"
+    },
+    {
+      "id": "bir_penguin",
+      "name": "بَطْرِيق",
+      "image": "./assets/images/bir_penguin.webp",
+      "audio": "./assets/audio/bir_penguin.wav"
+    },
+    {
+      "id": "bir_ostrich",
+      "name": "نَعَامَة",
+      "image": "./assets/images/bir_ostrich.webp",
+      "audio": "./assets/audio/bir_ostrich.wav"
+    },
+    {
+      "id": "bir_ostrich_bird",
+      "name": "إِيمُو",
+      "image": "./assets/images/bir_ostrich_bird.webp",
+      "audio": "./assets/audio/bir_ostrich_bird.wav"
+    },
+    {
+      "id": "bir_cassowary",
+      "name": "شَبنَم جَنُوبِيّ",
+      "image": "./assets/images/bir_cassowary.webp",
+      "audio": "./assets/audio/bir_cassowary.wav"
+    },
+    {
+      "id": "bir_kiwi",
+      "name": "كِيوِيّ",
+      "image": "./assets/images/bir_kiwi.webp",
+      "audio": "./assets/audio/bir_kiwi.wav"
+    },
+    {
+      "id": "bir_quail",
+      "name": "سَمَّان",
+      "image": "./assets/images/bir_quail.webp",
+      "audio": "./assets/audio/bir_quail.wav"
+    },
+    {
+      "id": "bir_turkey_bird",
+      "name": "دِيك رُومِيّ بَرِّيّ",
+      "image": "./assets/images/bir_turkey_bird.webp",
+      "audio": "./assets/audio/bir_turkey_bird.wav"
+    },
+    {
+      "id": "bir_macaw",
+      "name": "مَكَّاو قِرْمِزِيّ",
+      "image": "./assets/images/bir_macaw.webp",
+      "audio": "./assets/audio/bir_macaw.wav"
+    },
+    {
+      "id": "bir_golden_pheasant",
+      "name": "دَرَّاج ذَهَبِيّ",
+      "image": "./assets/images/bir_golden_pheasant.webp",
+      "audio": "./assets/audio/bir_golden_pheasant.wav"
+    },
+    {
+      "id": "bir_raven",
+      "name": "غُرَاب أَسْحَم",
+      "image": "./assets/images/bir_raven.webp",
+      "audio": "./assets/audio/bir_raven.wav"
+    }
+  ]
+}
